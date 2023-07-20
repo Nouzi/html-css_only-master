@@ -1,0 +1,33 @@
+.menu-table {
+  width: auto;
+  margin: 8rem auto;
+}
+.menu-table tr {
+  align-items: center;
+}
+.menu-table tr td {
+  position: relative;
+  padding: 0.5rem;
+  filter: blur(1.5px);
+}
+.menu-table tr td:hover {
+  filter: blur(0px);
+}
+.menu-table tr td p {
+  color: white;
+  margin-left: 1rem;
+  margin: 0px;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+}
+.menu-table tr td img {
+  margin-left: 1rem;
+  width: 400px;
+  height: 220px;
+}/*# sourceMappingURL=menu.css.map */

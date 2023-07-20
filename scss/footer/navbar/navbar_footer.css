@@ -1,0 +1,55 @@
+.navbar-footer {
+  position: absolute;
+  bottom: 1%;
+  border: 1px solid black;
+  width: 100%;
+}
+.navbar-footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0.6rem;
+  padding: 0.5rem;
+}
+.navbar-footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: solid orange 1px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.navbar-footer a:hover {
+  color: rgb(255, 255, 255);
+  background-color: brown;
+}
+
+.navbar-footer-menu {
+  position: unset;
+  bottom: 1%;
+  border: 1px solid black;
+  width: 100%;
+}
+.navbar-footer-menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0.6rem;
+  padding: 0.5rem;
+}
+.navbar-footer-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: solid orange 1px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.navbar-footer-menu a:hover {
+  color: rgb(255, 255, 255);
+  background-color: brown;
+}/*# sourceMappingURL=navbar_footer.css.map */

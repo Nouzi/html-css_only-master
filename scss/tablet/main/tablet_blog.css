@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+  article {
+    width: unset;
+  }
+  .navbar-footer-blog {
+    position: relative;
+    border: unset;
+  }
+}/*# sourceMappingURL=tablet_blog.css.map */

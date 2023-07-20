@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) {
+
+  .menu-table {
+
+    margin: 1rem auto;
+
+    tr {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+
+      td {
+        filter: unset;
+        width: 100%;
+
+        a {
+
+          p {
+            color: black;
+            transform: translateX(-55%) translateY(-50%);
+          }
+
+          img {
+            width: 22.3rem;
+            height: auto;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .navbar-footer {
+      position: relative;
+      width: 100%;
+      transform: unset;
+      left: unset;
+    }
+
+  }
+
+}
+
+
+

@@ -1,0 +1,8 @@
+@media screen and (min-height: 1026px) {
+  .navbar-tablet-footer {
+    position: absolute;
+  }
+  .navbar-footer {
+    position: absolute;
+  }
+}/*# sourceMappingURL=navbar-tablet-footer.css.map */

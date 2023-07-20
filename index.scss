@@ -1,0 +1,35 @@
+@use './scss/header/navbar/navbar_header.scss';
+@use './scss/footer/navbar/navbar_footer.scss';
+@use './scss/main/main.scss';
+@use './scss/main/menu.scss';
+@use './scss/main/blog.scss';
+@use './scss/main/tutorial.scss';
+@use './scss/main/kontakt.scss';
+@use './scss/main/zdroje.scss';
+@use './scss/main/dokumentacia.scss';
+// mobile version
+@use './scss/mobile/header/navbar_mobile_header.scss';
+@use './scss/mobile/footer/navbar_mobile_footer.scss';
+@use './scss/mobile/main/mobile_menu.scss';
+@use './scss/mobile/main/mobile_blog.scss';
+@use './scss/mobile/main/mobile_tutorial.scss';
+@use './scss/mobile/main/mobile_dokumentacia.scss';
+// tablet version
+@use './scss/tablet/main/tablet_menu.scss';
+@use './scss/tablet/main/tablet_blog.scss';
+@use './scss/tablet/main/tablet_tutorial.scss';
+@use './scss/tablet/footer/navbar-tablet-footer.scss';
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf') format('woff');
+}
+
+html {
+  font-family: Roboto, serif;
+
+  body {
+    background-color: gray;
+  }
+}

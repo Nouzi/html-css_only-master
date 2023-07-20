@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .dokumentacia-list {
+    padding: 1.1rem;
+  }
+  .navbar-mobile-footer {
+    position: relative;
+    width: 100%;
+    transform: unset;
+    left: unset;
+  }
+}/*# sourceMappingURL=mobile_dokumentacia.css.map */

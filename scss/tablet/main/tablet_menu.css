@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+  .menu-table {
+    margin: 1rem auto;
+  }
+  .menu-table tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu-table tr td {
+    filter: unset;
+    width: 100%;
+  }
+  .menu-table tr td a p {
+    color: black;
+    transform: translateX(-55%) translateY(-50%);
+  }
+  .menu-table tr td a img {
+    width: 22.3rem;
+    height: auto;
+    margin: 0;
+  }
+  .menu-table .navbar-footer {
+    position: relative;
+    width: 100%;
+    transform: unset;
+    left: unset;
+  }
+}/*# sourceMappingURL=tablet_menu.css.map */

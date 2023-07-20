@@ -1,0 +1,37 @@
+.tutorial-description {
+  text-align: center;
+}
+
+.tutorial-title {
+  text-align: center;
+}
+
+.tutorial-main {
+  padding: 1rem 4rem;
+}
+
+.tutorial-editor-setup-text {
+  border-top: solid black 1px;
+  padding-top: 1rem;
+}
+
+.tutorial-required-things-list {
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.tutorial-editor-setup {
+  text-align: unset;
+  align-self: center;
+
+  li {
+    margin-bottom: 1rem;
+    list-style: url("media/images/react.svg");
+  }
+
+  li::marker {
+    height: 100%;
+  }
+;
+}

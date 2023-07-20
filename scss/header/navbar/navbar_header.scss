@@ -1,0 +1,51 @@
+.navbar-header {
+    border: 1px solid black;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0.6rem;
+        padding: 0.5rem;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 1.1rem;
+
+        border: solid orange 1px;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+
+        &:hover {
+            color: rgb(255 255 255);
+            background-color: brown;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        left: 1%;
+        top: 1.2%;
+
+        text-decoration: none;
+        color: black;
+        font-weight: none;
+        font-size: none;
+        border: none;
+        border-radius: none;
+        padding: none;
+
+        img {
+            width: 6rem;
+        }
+
+        &:hover {
+            background-color: unset;
+        }
+    }
+}

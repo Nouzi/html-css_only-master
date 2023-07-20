@@ -1,0 +1,59 @@
+article {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    border: solid black 1px;
+    width: fit-content;
+    margin: auto;
+
+    img {
+        width: 400px;
+        height: 220px;
+    }
+
+    div {
+        width: 400px;
+
+        h3 {
+            height: 5.7rem;
+            overflow: auto;
+        }
+
+        p {
+            text-align: left;
+        }
+    }
+}
+
+.navbar-footer-blog {
+    position: absolute;
+
+    border: 1px solid black;
+    width: 100%;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0.6rem;
+        padding: 0.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 1.1rem;
+
+        border: solid orange 1px;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+
+        &:hover {
+            color: rgb(255 255 255);
+            background-color: brown;
+        }
+    }
+}

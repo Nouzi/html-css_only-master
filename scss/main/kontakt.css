@@ -1,0 +1,19 @@
+.contact-main-text {
+  text-align: center;
+}
+
+.contact-list {
+  list-style: square;
+  color: black;
+}
+.contact-list li {
+  margin-bottom: 0.5rem;
+}
+.contact-list li a {
+  text-decoration: none;
+  color: black;
+}
+.contact-list li a:hover {
+  color: lightcoral;
+  text-decoration: underline;
+}/*# sourceMappingURL=kontakt.css.map */

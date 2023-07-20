@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) {
+
+  .menu-table {
+
+    margin: 1rem auto;
+
+    tr {
+
+      display: flex;
+      flex-direction: column;
+
+
+      td {
+        filter: unset;
+        width: 100%;
+
+        a {
+
+          p {
+            color: black;
+          }
+
+          img {
+            width: 300px;
+            height: 150px;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .navbar-mobile-footer {
+    position: relative;
+    width: 100%;
+    transform: unset;
+    left: unset;
+  }
+
+
+}

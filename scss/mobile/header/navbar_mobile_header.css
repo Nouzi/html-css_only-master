@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+  .navbar-header ul {
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+  .navbar-header a {
+    padding: 4px;
+  }
+}/*# sourceMappingURL=navbar_mobile_header.css.map */

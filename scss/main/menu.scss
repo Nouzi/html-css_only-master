@@ -1,0 +1,39 @@
+.menu-table {
+    width: auto;
+    margin: 8rem auto;
+
+    tr {
+        align-items: center;
+        td {
+            position: relative;
+            padding: 0.5rem;
+
+            filter: blur(1.5px);
+
+            &:hover {
+                filter: blur(0px);
+            }
+
+            p {
+                color: white;
+                margin-left: 1rem;
+                margin: 0px;
+                z-index: 1;
+                font-weight: 600;
+                font-size: 2rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                text-align: center;
+                transform: translateX(-50%) translateY(-50%);
+            }
+
+            img {
+                margin-left: 1rem;
+
+                width: 400px;
+                height: 220px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px) {
+  .navbar-footer {
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 94%;
+
+    ul {
+      gap: .5rem;
+      margin: 0;
+      padding: 0.5rem 0;
+      width: 100%;
+    }
+
+    a {
+      padding: 4px;
+    }
+  }
+}
+
+
+//TODO dokončiť navbary aj tam kde je scrollovanie dole, lebo absolute position tam nie je vhodné.

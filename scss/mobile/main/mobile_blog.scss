@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+
+
+  .main-mobile-blog {
+    article {
+      flex-direction: column;
+      padding: 1rem;
+      width: unset;
+
+      div {
+        width: 100%;
+      }
+
+      img {
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+
+  .navbar-mobile-footer-blog {
+    position: relative;
+    width: 100%;
+    transform: unset;
+    left: unset;
+
+    ul {
+      gap: .5rem;
+
+      li {
+
+        a {
+
+          padding: 0.05rem;
+        }
+      }
+    }
+  }
+
+
+}
